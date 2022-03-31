@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: grid;
+    border: thin solid black;
+    border-radius: 15px;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: burlywood;
+}
+
+.formbaslik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+    border-bottom: thick solid saddlebrown;
+}
+
+.aciklama{
+    font-weight: bold;
+}
